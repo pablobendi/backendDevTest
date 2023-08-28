@@ -31,3 +31,15 @@ The following topics will be considered:
 - Code clarity and maintainability
 - Performance
 - Resilience
+
+## Solution
+Run the following command to start the mocks and the new service:
+```
+docker-compose up -d simulado influxdb grafana similar-product
+```
+
+Validate the solution with the next request [http://localhost:5000/product/1/similar](http://localhost:5000/product/1/similar).
+
+Repository: [https://github.com/pablobendi/similar-product-service](https://github.com/pablobendi/similar-product-service).
+
+Docker hub: [https://hub.docker.com/repository/docker/pbendi/similar-product-service/general](https://hub.docker.com/repository/docker/pbendi/similar-product-service/general)
